@@ -15,6 +15,7 @@ with open('model.pkl', 'rb') as model_file:
 # Preprocess input JSON
 def preprocess_input(data):
     # List all expected features in the correct order
+    console.log(data)
     expected_features = [
         "A1", "A2", "A3", "A4", "A5", "A6", "A7", "A8", "A9", "A10_Autism_Spectrum_Quotient",
         "Social_Responsiveness_Scale", "Age_Years", "Qchat_10_Score", "Speech Delay/Language Disorder",
